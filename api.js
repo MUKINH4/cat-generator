@@ -25,3 +25,4 @@ async function insertCat() {
 
 
 document.addEventListener('keydown', insertCat)
+document.addEventListener('touchstart', insertCat)
