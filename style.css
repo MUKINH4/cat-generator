@@ -1,0 +1,15 @@
+.image {
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    transition: transform .3s;
+    &:hover {
+        transform: scale(1.05);
+    }
+    margin: 5px;
+}
+
+#text {
+    font-family: 'monospace';
+}
